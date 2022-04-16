@@ -2,6 +2,7 @@ import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import './Login.css'
+import SocialLogin from './SocialLogin/SocialLogin';
 const Login = () => {
     const navigate = useNavigate();
     const navigateToRegister = () => {
@@ -28,6 +29,7 @@ const Login = () => {
                     </div>
                 </form>
             </div>
+            <SocialLogin></SocialLogin>
         </section>
     );
 };
