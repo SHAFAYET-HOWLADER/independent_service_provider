@@ -9,9 +9,9 @@ const Header = () => {
         <div className='index'>
             <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand CustomLink href="/home">
+                <CustomLink  to="/home">
                     <img src={logo} alt='img'/>
-                </Navbar.Brand>
+                </CustomLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">

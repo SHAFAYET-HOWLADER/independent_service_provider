@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './Home/Home';
 import Header from './Pages/Shared/Header/Header';
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <div className='components_center'>
       <Header></Header>
        <Routes>
-          <Route></Route>
+          <Route path='/' element={<Home/>}></Route>
+          <Route path='/home' element={<Home/>}></Route>
        </Routes>
     </div>
   );
