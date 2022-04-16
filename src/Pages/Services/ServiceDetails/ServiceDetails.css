@@ -1,0 +1,16 @@
+#details {
+    padding: 60px 0px;
+}
+#details .container button{
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding: 5px 25px;
+    background-color: #F7CCAC;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: all linear .4s;
+}
+#details .container{
+    text-align: center;
+}

@@ -13,6 +13,7 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
+                    <h1>Gymnasium Center</h1>
                     <h3>Put your weights back.</h3>
                     <p>a large room used for various indoor sports (such as basketball or boxing) and usually equipped with gymnastic apparatus.</p>
                 </Carousel.Caption>
@@ -25,6 +26,7 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
+                    <h1>Gymnasium Center</h1>
                     <h3>Keep the equipment where it belongs.</h3>
                     <p>A gymnasium, also known as a gym, is a covered location for athletics. The word is derived from the ancient Greek term "gymnasium". They are commonly found in athletic and fitness centres, and as activity and learning spaces in educational institutions.</p>
                 </Carousel.Caption>
@@ -37,6 +39,7 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
+                    <h1>Gymnasium Center</h1>
                     <h3>Be mindful of your surroundings.</h3>
                     <p>school for gymnastics," from the Greek gymnasion, "public place where exercises are practiced.</p>
                 </Carousel.Caption>
