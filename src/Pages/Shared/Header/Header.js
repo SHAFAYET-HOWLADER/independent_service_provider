@@ -4,7 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css'
 import logo from '../../../banner_img/logo.png';
 import CustomLink from '../../CustomLink/CustomLink';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
 const Header = () => {
+    const [user] = useAuthState(auth);
     return (
         <div className='index'>
             <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -16,7 +19,10 @@ const Header = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                         <CustomLink to="/Services">Services</CustomLink>
-                        <CustomLink to="/Login">Login</CustomLink>
+                        {
+                            user ? <button>SignOut</button> 
+                            :<CustomLink to="/Login">Login</CustomLink>
+                        }
                         <CustomLink to="/Blogs">Blogs</CustomLink>
                     </Nav>
                     <Nav>
