@@ -11,43 +11,43 @@ import Service from './Service/Service';
 import './Services.css'
 const services = [
     {
-        name: "Stay Fit For Life.",
+        name: "Stay Fit.",
         id: 1,
         description: 'You must be able to pick out good names from any list by now. Also, you’ll be able to brainstorm new ideas while still keeping the necessary points in mind.',
         img: gallery_two
     },
     {
-        name: "Abs Fit House.",
+        name: "Abs Fit",
         id: 2,
         description: 'You’ve got a list. Now, is the time to intermingle words. What you need to do is to pick a word from one idea and put it into another and fit it creatively into it.',
         img: gallery_one
     },
     {
-        name: "Body Fitness Centre.",
+        name: "Body Fitness.",
         id: 3,
         description: 'From time to time, you’ll see your list of names. And whenever, you feel like some ideas are not very cool to use, you should just cut them out.',
         img: gallery_five
     },
     {
-        name: "No Sweat Gym.",
+        name: "No Sweat",
         id: 4,
         description: 'And imagine if your business names spell hard and people can’t remember it! You could lose a lot of potential customers.',
         img: gallery_three
     },
     {
-        name: "Work Out World",
+        name: "Work Out",
         id: 5,
         description: 'While picking a name for your gym & fitness business, it’s important that you consider if your company will provide services internationally.',
         img: gallery_four
     },
     {
-        name: "Fit For Life Fitness Center.",
+        name: "Fit For Life",
         id: 6,
         description: 'For small businesses with a low marketing budget, it is recommended that their business name should tell what they sell or serve.',
         img: team_three
     },
     {
-        name: "Working Man's Gym.",
+        name: "Working Man's",
         id: 7,
         description: 'Friendly relations with customers are good for business. And a name that tell a story can give you a start.',
         img: team_one

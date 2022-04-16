@@ -1,0 +1,42 @@
+
+.service_text h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.service_text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+.service_text button{
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding: 5px 25px;
+    background-color: #F7CCAC;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: all linear .4s;
+    position: absolute;
+    bottom: 10px;
+}
+.service_text button:hover{
+    background-color: #C69B7B;
+    color: gold;
+}
+.service{
+    background-color: #826F66;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+}
+.service img {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+

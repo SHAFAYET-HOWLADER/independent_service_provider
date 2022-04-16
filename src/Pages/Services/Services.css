@@ -15,16 +15,3 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.service{
-    background-color: #826F66;
-    margin: 15px;
-    padding: 10px;
-    border-radius: 8px;
-}
-.service img {
-    width: 100%;
-    margin-bottom: 50px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
