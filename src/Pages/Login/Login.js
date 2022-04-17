@@ -29,7 +29,7 @@ const Login = () => {
       if(user){
         navigate(from, {replace: true})
       }
-      const [sendPasswordResetEmail, sending, resetError] = useSendPasswordResetEmail(auth);
+      const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
       
       let showError;
       if(error){
@@ -60,7 +60,7 @@ const Login = () => {
     return (
         <section id="login">
             <div className='container'>
-                <form className='form_area' on onSubmit={signInHandler}>
+                <form className='form_area' onSubmit={signInHandler}>
                   <h3>Please login </h3>
                     <div className='input_group'>
                         <label htmlFor='email'>You Email</label>
