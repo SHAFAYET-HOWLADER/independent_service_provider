@@ -4,6 +4,7 @@ import Home from './Home/Home';
 import CheckOut from './Pages/CheckOut/CheckOut';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Login/Register/Register';
+import NotAvailable from './Pages/NotAvailable/NotAvailable';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
 import ServiceDetails from './Pages/Services/ServiceDetails/ServiceDetails';
 import Services from './Pages/Services/Services';
@@ -27,6 +28,7 @@ function App() {
           <Route path='/services' element={<Services/>}></Route>
           <Route path='/services' element={<Services/>}></Route>
           <Route path='/service/:serviceId' element={<ServiceDetails/>}></Route>
+          <Route path='*' element={<NotAvailable/>}></Route>
        </Routes>
        <Footer></Footer>
     </div>

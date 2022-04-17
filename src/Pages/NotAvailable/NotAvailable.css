@@ -1,0 +1,23 @@
+
+#notAvailable{
+    padding: 160px 0px;
+}
+#notAvailable .container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.error_img img{
+   width: 50%;
+   object-fit: cover;
+   border-radius: 8px;
+}
+.error_text h3,h2{
+    font-family: 'Akshar', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.error_text  small{
+    font-family: 'Akshar', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}

@@ -64,11 +64,11 @@ const Login = () => {
                   <h3>Please login </h3>
                     <div className='input_group'>
                         <label htmlFor='email'>You Email</label>
-                        <input type='email' ref={emailRef} name='email' id='email' placeholder='Your Email' />
+                        <input type='email' ref={emailRef} name='email' id='email' placeholder='Your Email' required/>
                     </div>
                     <div className='input_group'>
                         <label htmlFor='password'>You Password</label>
-                        <input type='password' ref={passwordRef} name='password' id='password' placeholder='Your Password' />
+                        <input type='password' ref={passwordRef} name='password' id='password' placeholder='Your Password' required/>
                         <input className='my-4 login_btn' type='submit' value='Login' />
                         {showError}
                         {showLoading}
