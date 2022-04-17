@@ -6,6 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import './Register.css'
 import { async } from '@firebase/util';
+import Loading from '../../Shared/Header/Loading/Loading';
 
 const Register = () => {
     const navigate = useNavigate()
@@ -27,9 +28,7 @@ const Register = () => {
       }
       let spinner;
       if(loading){
-        spinner = <p>
-            Please Wait...
-        </p> 
+        spinner = <Loading></Loading>
       }
       const createUserHandler = async (event)=>{
          event.preventDefault()
