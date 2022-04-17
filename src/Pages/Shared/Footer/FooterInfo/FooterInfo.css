@@ -1,0 +1,25 @@
+
+#footerInfo{
+    padding: 50px 0px;
+    background-color: #000;
+}
+.footer_logo h2,h5{
+    color: #F7CCAC;
+}
+.footer_logo img{
+   object-fit: cover;
+   margin: 10px 0px;
+}
+.service_list ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.footer_content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer_content ul li{
+    color: #F7CCAC;
+    padding: 0px 5px;
+}

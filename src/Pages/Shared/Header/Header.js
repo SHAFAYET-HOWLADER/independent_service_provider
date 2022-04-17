@@ -15,7 +15,7 @@ const Header = () => {
       };
     return (
         <div className='index'>
-            <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar  collapseOnSelect expand="lg" bg="dark" sticky='top' variant="dark">
             <Container>
                 <CustomLink  to="/home">
                     <img src={logo} alt='img'/>

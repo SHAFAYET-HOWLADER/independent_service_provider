@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useUpdateProfile } from 'react-firebase-hooks/auth';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import './Register.css'
 import { async } from '@firebase/util';
 import Loading from '../../Shared/Header/Loading/Loading';
 
 const Register = () => {
-    const [agree, setAgree] = useState();
-    const navigate = useNavigate(false);
-;    const [
+    const [agree, setAgree] = useState(false);
+    const navigate = useNavigate();
+    const [
         createUserWithEmailAndPassword,
         user,
         loading,
