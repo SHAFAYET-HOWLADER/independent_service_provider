@@ -28,17 +28,17 @@ const SocialLogin = () => {
             <div className='socialSignIn'>
                  <div onClick={()=>signInWithGoogle()} className='signIn'>
                     <img src={google} alt='img'/>
-                    &nbsp;
+                    &nbsp;&nbsp;&nbsp;
                     <small>Sign In With Google</small>
                  </div>
                  <div onClick={()=>signInWithFacebook()} className='signIn'>
                     <img src={facebook} alt='img'/>
-                    &nbsp;
+                    &nbsp; &nbsp; &nbsp;
                     <small>Sign In With Facebook</small>
                  </div>
                  <div onClick={()=>signInWithGithub()} className='signIn'>
                     <img src={github} alt='img'/>
-                    &nbsp;
+                    &nbsp; &nbsp; &nbsp;
                     <small>Sign In With Github</small>
                  </div>
             </div>

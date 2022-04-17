@@ -1,4 +1,6 @@
-
+#banner{
+    padding-top: 80px;
+}
 .index a{
     font-family: 'Akshar', sans-serif;
     font-weight: 500;
@@ -6,7 +8,13 @@
     margin: 0px 25px;
     text-transform: uppercase;
 }
-
+.index{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
 .signOut{
     border: none;
     font-family: 'Lato', sans-serif;

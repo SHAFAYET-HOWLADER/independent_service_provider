@@ -24,7 +24,7 @@
     font-weight: 500;
 }
 #login{
-    padding: 50px 0px;
+    padding: 130px 0px;
     background-color: rgba(247, 205, 172, 0.3);
 }
 .refer_register button{
@@ -80,6 +80,15 @@
     }
     .form_area{
         width: 60%;
+    }
+    .refer_register{
+        text-align: center;
+    }
+    .refer_register button{
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 0;
+        margin-top: 10px;
     }
 }
 

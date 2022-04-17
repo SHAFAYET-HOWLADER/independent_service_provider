@@ -52,8 +52,9 @@
 }
 @media (max-width: 575.98px){
     .service img {
-        height: 60%;
+        height: 55%;
     }
+
 }
 /*<-----apply media query-------->*/
 
