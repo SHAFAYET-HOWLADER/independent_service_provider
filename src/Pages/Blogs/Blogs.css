@@ -1,0 +1,33 @@
+#blogs {
+    padding: 100px 0px;
+}
+
+.blogs_content small {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+.blogs_content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+    text-align: justify;
+}
+.blogs_content h5{
+    padding-bottom: 5px;
+    color: gold;
+    border-radius: 3px;
+    background-color: #3A3845;
+    padding: 3px 5px;
+}
+#blogs .container h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
