@@ -4,7 +4,7 @@ const CheckOut = () => {
     return (
         <section id="checkout">
             <div className='container'>
-                <h2>Thanks for checking Out</h2>
+                <h2>Thank you for the booking.</h2>
             </div>
         </section>
     );
