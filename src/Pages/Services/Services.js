@@ -35,7 +35,7 @@ const services = [
         name: "No Sweat",
         id: 4,
         price : '$200',
-        description: 'And imagine if your business names spell hard and people can’t remember it! You could lose a lot of potential customers.',
+        description: 'And imagine if your business names spell hard and people can’t remember it! You could lose a lot of potential energetic potential customers.',
         img: gallery_three
     },
     {
@@ -49,21 +49,21 @@ const services = [
         name: "Fit For Life",
         id: 6,
         price : '$80',
-        description: 'For small businesses with a low marketing budget, it is recommended that their business name should tell what they sell or serve.',
+        description: 'For small businesses with a low marketing budget, it is recommended that their business name should tell what they sell usually or serve.',
         img: team_three
     },
     {
         name: "Working Man's",
         id: 7,
         price : '$140',
-        description: 'Friendly relations with customers are good for business. And a name that tell a story can give you a start.',
+        description: 'Friendly relations with customers are good for business growing purpose. And a name that tell a perfect story that can give perfectly you a start practice.',
         img: team_one
     },
     {
         name: "Total Gymnasium.",
         id: 8,
         price : '$190',
-        description: 'Well! Businesses find an increase in sales through referral marketing, usually known as “word of mouth” marketing.',
+        description: 'Well! Businesses find an increase in sales department through referral marketing as well,that usually known as “word of mouth” marketing.',
         img: gallery_six
     },
 ]

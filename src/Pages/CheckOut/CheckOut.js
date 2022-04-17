@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './CheckOut.css'
 const CheckOut = () => {
     return (
         <section id="checkout">
             <div className='container'>
-                <h2>Please checkout for booking</h2>
+                <h2>Thanks for checking Out</h2>
             </div>
         </section>
     );

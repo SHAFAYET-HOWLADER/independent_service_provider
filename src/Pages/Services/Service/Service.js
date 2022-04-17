@@ -13,7 +13,7 @@ const Service = ({service}) => {
             <img src={img} alt='img'/>
             <div className='service_text'>
               <h3>{name}</h3>
-               <h5>{price}</h5>
+              <h3>{price}</h3>
               <p>{description}</p>
               <button onClick={()=>navigateToDetails(id)}>See-Info &nbsp;<FaArrowRight/> </button>
             </div>

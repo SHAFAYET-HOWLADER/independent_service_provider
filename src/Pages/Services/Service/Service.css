@@ -1,10 +1,10 @@
 
-.service_text h3, h5{
+.service_text h3{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     margin:  0px;
-    padding: 0;
+    padding: 3px 0px;
 }
 .service_text p{
     font-family: 'Lato', sans-serif;
@@ -21,8 +21,6 @@
     color: #F7CCAC ;
     font-weight: 600;
     transition: all linear .4s;
-    position: absolute;
-    bottom: 10px;
 }
 .service_text button:hover{
     background-color: #C69B7B;
@@ -33,7 +31,6 @@
     margin: 15px;
     padding: 10px;
     border-radius: 8px;
-    position: relative;
 }
 .service img {
     width: 100%;
@@ -43,4 +40,20 @@
     padding-bottom: 5px;
 }
 
+/*<-----apply media query-------->*/
+@media (min-width: 992px) and (max-width: 1199px){}
+@media (min-width: 768px) and (max-width: 991.98px){
+   
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .service img {
+        height: 50%;
+    }
+}
+@media (max-width: 575.98px){
+    .service img {
+        height: 60%;
+    }
+}
+/*<-----apply media query-------->*/
 

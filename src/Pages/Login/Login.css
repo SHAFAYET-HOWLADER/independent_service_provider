@@ -25,7 +25,7 @@
 }
 #login{
     padding: 50px 0px;
-    background-color: #F7CCAC;
+    background-color: rgba(247, 205, 172, 0.3);
 }
 .refer_register button{
     border: none;
@@ -45,3 +45,42 @@
     font-size: 20px;
     background-color: #C69B7B;
 }
+
+/*<-----apply media query-------->*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .input_group input:not([type=checkbox]){
+        width: 100%;
+    }
+    .form_area{
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .input_group input:not([type=checkbox]){
+        width: 100%;
+    }
+    .form_area{
+        width: 80%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .input_group input:not([type=checkbox]){
+        width: 100%;
+    }
+    .form_area{
+        width: 70%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .input_group input:not([type=checkbox]){
+        width: 100%;
+    }
+    .form_area{
+        width: 60%;
+    }
+}
+
+/*<-----apply media query-------->*/

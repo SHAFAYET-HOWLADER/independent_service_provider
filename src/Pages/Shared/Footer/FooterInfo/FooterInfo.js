@@ -6,12 +6,12 @@ const FooterInfo = () => {
         <section id='footerInfo'>
             <div className='container'>
                 <div className='footer_content'>
-                    <div className='footer_logo'>
-                        <h2>Gymnasium center.com</h2>
+                    <div className='footer_logo create_gap'>
+                        <h2>Gymnasium center</h2>
                         <img src={logo} alt='img' />
                         <h5>GymnasiumCenter.com</h5>
                     </div>
-                    <div className='service_list'>
+                    <div className='service_list create_gap'>
                          <h5 className='ps-3'>Our awesome services</h5>
                         <ul>
                             <li>Stay Fit</li>
@@ -24,7 +24,7 @@ const FooterInfo = () => {
                             <li>Total Gymnasium</li>
                         </ul>
                     </div>
-                    <div className='contact_us'>
+                    <div className='contact_us create_gap'>
                       <h5 className='ps-3'>Contact with us</h5>
                         <div className='contact_info'>
                             <ul>

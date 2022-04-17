@@ -18,7 +18,7 @@ const Header = () => {
             <Navbar  collapseOnSelect expand="lg" bg="dark" sticky='top' variant="dark">
             <Container>
                 <CustomLink  to="/home">
-                    <img src={logo} alt='img'/>
+                    <img className='py-2' src={logo} alt='img'/>
                 </CustomLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

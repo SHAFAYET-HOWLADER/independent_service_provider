@@ -2,18 +2,20 @@
 #banner .banner_text h1{
   font-family: 'Roboto', sans-serif;
   font-size: 45px;
-  color: #F7CCAC;
+  color: #fff;
+  text-shadow: -2px -2px 6px rgba(0,0,0,0.6);
 }
 #banner .banner_text h3{
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   padding: 20px 0px;
-  color: #F7CCAC;
+  color: #fff;
+  text-shadow: -2px -2px 6px rgba(0,0,0,0.6);
 }
 #banner .banner_text p{
   font-family: 'Lato', sans-serif;
   font-size: 17px;
   padding: 20px 0px;
-  color: #F7CCAC;
+  color: #fff;
 }
 
