@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import {useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { FaArrowRight } from 'react-icons/fa';
 import { useSendPasswordResetEmail } from 'react-firebase-hooks/auth';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import './Login.css'
 import SocialLogin from './SocialLogin/SocialLogin';
@@ -14,19 +14,23 @@ const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || '/';
     const navigateToRegister = ()=>{
         navigate('/register')
     }
+   
     const [
         signInWithEmailAndPassword,
         user,
         loading,
         error,
       ] = useSignInWithEmailAndPassword(auth);
-      const [sendPasswordResetEmail, sending, resetError] = useSendPasswordResetEmail(auth);
       if(user){
-        navigate('/home')
+        navigate(from, {replace: true})
       }
+      const [sendPasswordResetEmail, sending, resetError] = useSendPasswordResetEmail(auth);
+      
       let showError;
       if(error){
         showError = <p className='text-danger'>

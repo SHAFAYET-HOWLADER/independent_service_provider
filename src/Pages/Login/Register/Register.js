@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useUpdateProfile } from 'react-firebase-hooks/auth';
@@ -9,7 +9,8 @@ import { async } from '@firebase/util';
 import Loading from '../../Shared/Header/Loading/Loading';
 
 const Register = () => {
-    const navigate = useNavigate()
+    const [agree, setAgree] = useState();
+    const navigate = useNavigate(false);
 ;    const [
         createUserWithEmailAndPassword,
         user,
@@ -37,7 +38,6 @@ const Register = () => {
          const password = event.target.password.value;
          await createUserWithEmailAndPassword(email, password)
          await updateProfile({ displayName : name});
-         console.log('Updated profile');
       }
     return (
         <section id="register">
@@ -55,7 +55,10 @@ const Register = () => {
                     <div className='input_group'>
                         <label htmlFor='password'>You Password</label>
                         <input type='password' name='password' id='password' placeholder='Your Password' required/>
-                        <input className='my-4 login_btn' type='submit' value='Register' />
+                         <input onClick={()=>setAgree(!agree)} type='checkbox' name='terms' id='terms'/>
+                         &nbsp; &nbsp;
+                         <label className={agree ? 'text-success' : 'text-danger'} htmlFor='terms'>Agree terms and condition ?</label>
+                        <input disabled={!agree} className='my-4 login_btn' type='submit' value='Register' />
                         {createError}
                         {spinner}
                         <div className='refer_register'>

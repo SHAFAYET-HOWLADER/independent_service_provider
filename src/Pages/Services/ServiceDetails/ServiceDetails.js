@@ -7,7 +7,7 @@ const ServiceDetails = () => {
         <section id="details">
             <div className='container'>
                 <h2 className='section_title'>This is service details {serviceId}</h2>
-               <Link to='/checkout'>
+               <Link to='/checkOut'>
                  <button>Check Out</button>
                </Link>
             </div>
