@@ -6,11 +6,15 @@ import google from '../../../signIn_logo/google.png';
 import facebook from '../../../signIn_logo/facebook.png';
 import github from '../../../signIn_logo/github.png';
 import auth from '../../../firebase.init';
+import { useNavigate } from 'react-router-dom';
 const SocialLogin = () => {
+    const navigate = useNavigate();
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
-   
     let [signInWithFacebook, user1, loading1, error1] = useSignInWithFacebook(auth);
-    let [signInWithGithub, use2, loading2, error2] = useSignInWithGithub(auth);
+    let [signInWithGithub, user2, loading2, error2] = useSignInWithGithub(auth);
+    if(user || user1 || user2){
+        navigate('/home')
+     }
     return (
         <div className='container'>
             <div className='d-flex align-items-center justify-content-center pb-3'>
