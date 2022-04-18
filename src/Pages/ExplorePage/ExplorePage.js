@@ -5,7 +5,7 @@ const ExplorePage = () => {
     return (
         <section id="explore">
             <div className='container'>
-                <h2 className='section_title'>We are Suggesting</h2>
+                <h2 className='section_title'>I am Suggesting</h2>
               <div className='explore_content'>
                  
                  <div className='explore_text'>
