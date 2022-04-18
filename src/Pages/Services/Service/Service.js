@@ -15,7 +15,7 @@ const Service = ({service}) => {
               <h3>{name}</h3>
               <h3>{price}</h3>
               <p>{description}</p>
-              <button onClick={()=>navigateToDetails(id)}>See-Info &nbsp;<FaArrowRight/> </button>
+              <button onClick={()=>navigateToDetails(id)}>Explore&nbsp;<FaArrowRight style={{fontSize: '18px',marginBottom:"2px"}}/> </button>
             </div>
         </div>
     );

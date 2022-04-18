@@ -24,7 +24,7 @@ function App() {
           <Route path='/blogs' element={<Blogs/>}></Route>
           <Route path='/checkout' element={
             <RequireAuth>
-              <CheckOut/>
+              <CheckOut/>           
             </RequireAuth>
           }></Route>
           <Route path='/login' element={<Login/>}></Route>

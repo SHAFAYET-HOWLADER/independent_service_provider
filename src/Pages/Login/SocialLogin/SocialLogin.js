@@ -8,6 +8,7 @@ import github from '../../../signIn_logo/github.png';
 import auth from '../../../firebase.init';
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+   
     let [signInWithFacebook, user1, loading1, error1] = useSignInWithFacebook(auth);
     let [signInWithGithub, use2, loading2, error2] = useSignInWithGithub(auth);
     return (

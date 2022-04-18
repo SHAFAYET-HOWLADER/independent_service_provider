@@ -23,7 +23,7 @@ const ServiceDetails = () => {
                     </div>
                 </form>
                <Link to='/checkOut'>
-                 <button className='my-3'>Check Out <FaArrowRight style={{fontSize: '15px'}}/> </button>
+                 <button className='my-3'>Submit<FaArrowRight style={{fontSize: '15px'}}/> </button>
                </Link>
             </div>
         </section>
